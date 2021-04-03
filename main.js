@@ -8,11 +8,6 @@
   buttonElement.textContent = "play";
   buttonElement.addEventListener("click", drawImage);
 
-      /**
-     <div class="alert alert-success" role="alert">
-            A simple success alert—check it out!
-        </div>
-     */
 
   function imageLoaded() {
     const sections = Array.from(document.getElementsByTagName("section"));
