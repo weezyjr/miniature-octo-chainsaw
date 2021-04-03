@@ -22,7 +22,7 @@
     const alert = document.createElement('div');
     alert.className = 'alert alert-success';
     alert.setAttribute('role', 'alert');
-    alert.textContent = 'Your kitten is ready <3';
+    alert.textContent = 'Your kitten is ready <3 <3';
     parentSection.appendChild(alert);
   }
 
