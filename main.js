@@ -24,8 +24,6 @@
     alert.setAttribute('role', 'alert');
     alert.textContent = 'Your kitten is ready <3';
     parentSection.appendChild(alert);
-
-    // fetch('https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css').then((response) => console.log(response));
   }
 
   function drawImage(event) {
